@@ -7,7 +7,7 @@ public class HammingDistance
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
 		int y = sc.nextInt();
-		System.out.println(hammingDistance(x, y));
+		System.out.println("Hamming distance: " + hammingDistance(x, y));
 	}
 
 	/**
